@@ -1,0 +1,11 @@
+{
+    "jwtPrivatKey" : "mysecretkey",
+    "db": {
+        "connection": {
+            "host": "172.22.0.2",
+            "user": "root",
+            "password": "mypassword",
+            "database": "node_express_exercise"
+        }
+    }
+}

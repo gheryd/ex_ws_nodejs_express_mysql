@@ -1,0 +1,10 @@
+version: "2"
+services:
+  db:
+    image: mysql:5.7
+    ports:
+      - "3606:3606"
+    environment:
+      - MYSQL_DATABASE=node_express_exercise
+      - MYSQL_ROOT_PASSWORD=mypassword
+      
